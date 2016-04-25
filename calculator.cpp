@@ -1,11 +1,11 @@
-/*
+
 #include<iostream>
 using namespace std;
 
 void main(){
 
-	char character; //¹®ÀÚ¸¦ ¹ŞÀ» º¯¼ö
-	double num1, num2, result; //µÎ ¼ö¿Í ¿¬»ê °á°ú¸¦ ¹ŞÀ» º¯¼öµé
+	char character; //ë¬¸ìë¥¼ ë°›ì„ ë³€ìˆ˜
+	double num1, num2, result; //ë‘ ìˆ˜ì™€ ì—°ì‚° ê²°ê³¼ë¥¼ ë°›ì„ ë³€ìˆ˜ë“¤
 
 	do
 	{
@@ -16,12 +16,12 @@ void main(){
 		cout << "/---Divide" << endl;
 		cout << "Q---Quit" << endl;
 		cout << "*************" << endl <<endl;
-		cout << "¿¬»êÀ» ¼±ÅÃÇÏ½Ã¿À: ";
+		cout << "ì—°ì‚°ì„ ì„ íƒí•˜ì‹œì˜¤: ";
 		cin >> character;
 
-		if( (character == '+' ||  character == '-' ||  character == '*' || character == '/' )) //»ç¿ëÀÚ°¡ Á¦´ë·Î ÀÔ·ÂÇßÀ» °æ¿ì¿¡¸¸ ½ÇÇà
+		if( (character == '+' ||  character == '-' ||  character == '*' || character == '/' )) //ì‚¬ìš©ìê°€ ì œëŒ€ë¡œ ì…ë ¥í–ˆì„ ê²½ìš°ì—ë§Œ ì‹¤í–‰
 		{
-			cout << "µÎ ¼ö¸¦ °ø¹éÀ» ºĞ¸®ÇÏ¿© ÀÔ·ÂÇÏ½Ã¿À: ";
+			cout << "ë‘ ìˆ˜ë¥¼ ê³µë°±ì„ ë¶„ë¦¬í•˜ì—¬ ì…ë ¥í•˜ì‹œì˜¤: ";
 			cin >> num1 >> num2;
 			
 			if( character == '+' )
@@ -34,14 +34,14 @@ void main(){
 			else if( character == '/' )
 			{
 				if( num2 == 0 ) 
-					cout << "ºĞ¸ğ°¡ 0ÀÔ´Ï´Ù." << endl;
+					cout << "ë¶„ëª¨ê°€ 0ì…ë‹ˆë‹¤." << endl;
 				else
 					result = num1 / num2;
 				
 			}
 		
 			
-			if( character != '/' || num2 != 0 ) //ºĞ¸ğ°¡ 0ÀÎ ³ª´°¼ÀÀÌ ¾Æ´Ò°æ¿ì¿¡¸¸ Ãâ·Â
+			if( character != '/' || num2 != 0 ) //ë¶„ëª¨ê°€ 0ì¸ ë‚˜ëˆ—ì…ˆì´ ì•„ë‹ê²½ìš°ì—ë§Œ ì¶œë ¥
 				cout << result << endl ;
 
 		}
@@ -49,7 +49,6 @@ void main(){
 
 
 
-	}while( character != 'Q' ); // ¹®ÀÚ°¡ Q°¡ ¾Æ´Ò µ¿¾È ¹İº¹
+	}while( character != 'Q' ); // ë¬¸ìê°€ Qê°€ ì•„ë‹ ë™ì•ˆ ë°˜ë³µ
 
 }
-*/
