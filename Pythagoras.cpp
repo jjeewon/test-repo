@@ -1,11 +1,11 @@
-/*
+
 #include<iostream>
 #include<cmath>
 using namespace std;
 
 void main(){
 
-	struct pythagoras{ // ÇÇÅ¸°í¶ó½º Á¤¸® ¼º¸³µÇ´Â ¼¼ º¯ÀÇ ±æÀÌµéÀ» ³ÖÀ» ±¸Á¶Ã¼
+	struct pythagoras{ // í”¼íƒ€ê³ ë¼ìŠ¤ ì •ë¦¬ ì„±ë¦½ë˜ëŠ” ì„¸ ë³€ì˜ ê¸¸ì´ë“¤ì„ ë„£ì„ êµ¬ì¡°ì²´
 		int pythaA;
 		int pythaB;
 		int pythaC;
@@ -19,13 +19,13 @@ void main(){
 
 	pythagoras Pythagoras[100];
 	
-	for(a = 1; a < 100 ; a ++ ) //°¢ °æ¿ì¿¡ ´ëÇØ ¹İº¹
+	for(a = 1; a < 100 ; a ++ ) //ê° ê²½ìš°ì— ëŒ€í•´ ë°˜ë³µ
 	{
 		for ( b=1 ; b < 100 ; b ++ )
 		{
 			double squareC = a*a + b*b ;
 			
-			if( ( (double)sqrt(squareC) == (int)sqrt(squareC) ) && ( sqrt(squareC) < 100) && (a < b ) ) // ·çÆ®c°¡ Á¤¼öÀÌ°í 100º¸´Ù ÀÛÀ» °æ¿ì, ±¸Á¶Ã¼¿¡ ÀúÀå
+			if( ( (double)sqrt(squareC) == (int)sqrt(squareC) ) && ( sqrt(squareC) < 100) && (a < b ) ) // ë£¨íŠ¸cê°€ ì •ìˆ˜ì´ê³  100ë³´ë‹¤ ì‘ì„ ê²½ìš°, êµ¬ì¡°ì²´ì— ì €ì¥
 			{
 				Pythagoras[num].pythaA = a ;
 				Pythagoras[num].pythaB = b ;
@@ -39,9 +39,8 @@ void main(){
 
 	}
 
-	cout << " ÇÇÅ¸°í¶ó½ºÀÇ Á¤¸®°¡ ¼º¸³ÇÏ´Â »ï°¢ÇüÀº ÃÑ " << num << " °³ÀÌ°í" << endl;
+	cout << " í”¼íƒ€ê³ ë¼ìŠ¤ì˜ ì •ë¦¬ê°€ ì„±ë¦½í•˜ëŠ” ì‚¼ê°í˜•ì€ ì´ " << num << " ê°œì´ê³ " << endl;
 	
-	for( int i = 0; i < num ; i++ ) //±¸Á¶Ã¼¿¡ ÀúÀåµÈ ±æÀÌµéÀ» Ãâ·Â
+	for( int i = 0; i < num ; i++ ) //êµ¬ì¡°ì²´ì— ì €ì¥ëœ ê¸¸ì´ë“¤ì„ ì¶œë ¥
 		cout << Pythagoras[i].pythaA << " " << Pythagoras[i].pythaB << " " << Pythagoras[i].pythaC << endl;
 }
-*/
