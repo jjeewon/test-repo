@@ -1,4 +1,4 @@
-/*
+
 #include<iostream>
 #include<ctime>
 using namespace std;
@@ -59,7 +59,7 @@ int change(int array_1[10])
 		}
 	}
 		
-		cout << "�ִ��� " ;
+		cout << "ÃÖ´ñ°ªÀº " ;
 		for(int i = 0; max_number[i] !=0 ; i++)
 			cout << max_number[i] << " " ;
 		
@@ -74,4 +74,3 @@ int change(int array_1[10])
 
 }
 
-*/
