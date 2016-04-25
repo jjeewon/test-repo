@@ -1,4 +1,4 @@
-/*
+
 #include<iostream>
 using namespace std;
 class binary{
@@ -51,7 +51,7 @@ void main(){
 	binary jiwon_binary;
 	jiwon_binary.set_target(77);
 	num = jiwon_binary.find_binary(array_);
-	cout << "targetÀº " << jiwon_binary.get_target() << "ÀÌ°í, " << num+1 << "¹øÂ°¿¡ ÀúÀåµÇ¾îÀÖ½À´Ï´Ù." << endl;
+	cout << "targetì€ " << jiwon_binary.get_target() << "ì´ê³ , " << num+1 << "ë²ˆì§¸ì— ì €ìž¥ë˜ì–´ìžˆìŠµë‹ˆë‹¤." << endl;
 	
 
 	
@@ -84,4 +84,3 @@ int binary::find_binary(int array_[])
 	}
 	return num;
 }
-*/
